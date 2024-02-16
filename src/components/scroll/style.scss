@@ -1,0 +1,33 @@
+.page-title {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 60px;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+.scroll-progress {
+    width:100vw;
+    min-height: 4px;
+    background-color: rgb(113, 208, 113);
+    position: fixed;
+    top:60;
+    left:0;
+}
+
+.current-scroll-progress {
+    min-height: 6px;
+    background-color: rgb(31, 87, 31);
+}
+
+.data-container{
+    text-align: center;
+    margin-top: 60px;
+}
+
+p {
+    padding:10px 0px;
+    font-size: 20px;
+}
